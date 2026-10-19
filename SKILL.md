@@ -33,13 +33,6 @@ Conduct the interview strictly following these rules:
    - ❓ **The Question (提问)**: Ask the single, laser-focused question based on the above.
 5. **Do not proceed** to the next phase until mutual understanding is reached.
 
-*(示例：在第二个问题及以后，你的回复应该像这样：)*
-> 🟢 鼓励：你对用户痛点的洞察非常敏锐，切入点很好。
-> 🔴 批判：但从上帝视角看，你忽略了这个功能在并发量突增时的系统压力，以及它带来的长期维护成本。
-> 💡 建议：我推荐初期采用无状态架构，利用云服务来卸载压力。
-> ❓ 提问：针对这个方案，你更倾向于完全自研，还是基于现有的开源生态进行二次开发？
-> *(附带推荐答案：我推荐基于开源生态二次开发，能最快验证商业模式。)*
-
 ## Phase 3: Confirm Output Format / 第三阶段：确认输出格式
 
 After the interview, ask for the preferred output format:
