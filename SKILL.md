@@ -79,6 +79,7 @@ Output execution:
 - Reply with only a 3–5 sentence summary + file path; don't dump the full
   document unless asked.
 - Document language follows the user's language.
-- Markdown: Write tool directly. Word: try ① `pandoc in.md -o out.docx`,
-  ② python-docx; if neither works, output formatted Markdown and say:
-  "当前环境无法生成 Word，请复制下方文本。"
+- Markdown: save with the Write tool. Word: generate the .md first, then
+  try ① `pandoc in.md -o out.docx`, ② a python-docx script. If neither is
+  available, keep the saved .md and add one line: "已保存 Markdown，
+ 可用 Typora / WPS / pandoc 自行转为 Word。"
